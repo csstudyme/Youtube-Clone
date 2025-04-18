@@ -518,7 +518,7 @@ function LeftPanel() {
           <hr className={theme ? "seperate" : "seperate-light"} />
           <Tooltip
             TransitionComponent={Zoom}
-            title="Made with 💖 by Shubhojeet"
+            title=""
             placement="bottom"
           >
             <div className="developer">
@@ -527,11 +527,10 @@ function LeftPanel() {
                 style={{ color: theme ? "white" : "black" }}
               />
               <a
-                href="https://github.com/shubho0908"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
-                Shubhojeet Bera 🚀
               </a>
             </div>
           </Tooltip>
