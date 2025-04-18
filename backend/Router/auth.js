@@ -205,7 +205,7 @@ auth.post("/resetlink", async (req, res) => {
     });
 
     const mailOptions = {
-      from: "admin@shubho.youtube.app",
+      from: "admin@Ajay.youtube.app",
       to: email,
       subject: "Password Reset Link",
       html: `
@@ -218,7 +218,7 @@ auth.post("/resetlink", async (req, res) => {
           </p>
           <p style="color: #555;">This link is only valid for 30 minutes.</p>
           <p style="color: #555;">If you didn't request a password reset, please ignore this email.</p>
-          <p style="color: #888;">Best regards,<br/>Shubhojeet Bera</p>
+          <p style="color: #888;">Best regards,<br/>Ajay and Sudarshan</p>
         </div>
       `,
     };
