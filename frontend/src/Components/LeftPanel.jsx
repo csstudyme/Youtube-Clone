@@ -491,24 +491,7 @@ function LeftPanel() {
               })}
           </div>
           <hr className={theme ? "seperate" : "seperate-light"} />
-          <Tooltip
-            TransitionComponent={Zoom}
-            title=""
-            placement="bottom"
-          >
-            <div className="developer">
-              <CodeIcon
-                fontSize="medium"
-                style={{ color: theme ? "white" : "black" }}
-              />
-              <a
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
-              </a>
-            </div>
-          </Tooltip>
+          
         </div>
       </div>
 
