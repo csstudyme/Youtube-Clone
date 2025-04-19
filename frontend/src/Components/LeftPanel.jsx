@@ -223,32 +223,7 @@ function LeftPanel() {
                 style={{ color: theme ? "white" : "black" }}
               />
             )}
-
             <p>Home</p>
-          </div>
-          <div
-            className={
-              selected === "trending"
-                ? `trending sec-data ${theme ? "changeBG" : "changeBG-light"}`
-                : "trending sec-data"
-            }
-            onClick={() => {
-              localStorage.setItem("selected", "trending");
-              window.location.href = "/trending";
-            }}
-          >
-            {selected === "trending" ? (
-              <WhatshotIcon
-                fontSize="medium"
-                style={{ color: theme ? "white" : "black" }}
-              />
-            ) : (
-              <WhatshotOutlinedIcon
-                fontSize="medium"
-                style={{ color: theme ? "white" : "black" }}
-              />
-            )}
-            <p>Trending</p>
           </div>
           <div
             className={
